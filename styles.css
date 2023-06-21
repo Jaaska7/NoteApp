@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(https://wallpapercave.com/wp/wp4286413.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.limiter {
+    width: 90em;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-flow: wrap;
+}
+
+.newNote {
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    display: grid;
+    place-content: center;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.add {
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
+    border: 3px dashed rgb(110, 198, 227);
+    height: 90px;
+    width: 90px;
+}
+
+.add span {
+    color: rgb(34, 109, 135);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.newNote p {
+    font-family: monospace;
+    padding: 15px 0;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(34, 109, 135);
+}
+
+.notes {
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.title {
+    height: 20%;
+}
+
+.title input {
+    border-radius: 10px;
+    width: 290px;
+    height: 100%;
+    border: none;
+    text-align: left;
+    padding: 0 30px;
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.text {
+    height: 60%;
+}
+
+textarea {
+    border-radius: 10px;
+    resize: none;
+    width: 290px;
+    height: 170px;
+    max-width: 290px;
+    max-height: 170px;
+    display: block;
+    border: none;
+    padding: 5px 30px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.extras {
+    height: 19.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.date {
+    width: 100%;
+    height: 100%;
+}
+
+.date p {
+    font-family: monospace;
+    margin: 15px 30px;
+    font-size: 17px;
+
+}
+
+.delate {
+    display: grid;
+    place-content: center;
+    width: 25%;
+    height: 100%;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
